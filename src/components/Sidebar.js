@@ -31,9 +31,9 @@ function Sidebar() {
                     </li>
 
                     <li className="sidebar-item">
-                        <a className="sidebar-link" href="pages-sign-up.html">
+                        <Link className="sidebar-link" to="/login">
                             <i className="align-middle" data-feather="user-plus"></i> <span className="align-middle">Sign Up</span>
-                        </a>
+                        </Link>
                     </li>
 
                     <li className="sidebar-item">
@@ -47,9 +47,9 @@ function Sidebar() {
                     </li>
 
                     <li className="sidebar-item">
-                        <a className="sidebar-link" href="ui-buttons.html">
-                            <i className="align-middle" data-feather="square"></i> <span className="align-middle">Buttons</span>
-                        </a>
+                        <Link className="sidebar-link" to="/Subs">
+                            <i className="align-middle" data-feather="square"></i> <span className="align-middle">Subscription</span>
+                        </Link>
                     </li>
 
                     <li className="sidebar-item">
