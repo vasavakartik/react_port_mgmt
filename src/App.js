@@ -9,6 +9,7 @@ import UserSubs from './components/UserSubs';
 import Signin from './components/Signin';
 import Signup from './components/Signup';
 import { Logout } from './components/Logout';
+import { Profile } from './components/Profile';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path='/login' element={<Signin/>}></Route>
             <Route path='/Ragister' element={<Signup/>}></Route>
             <Route path='/Logout' element={<Logout/>}></Route>
+            <Route path='/Prof' element={<Profile/>}></Route>
           </Routes>
           </div>
           </main>

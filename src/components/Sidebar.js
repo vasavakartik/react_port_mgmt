@@ -19,9 +19,9 @@ function Sidebar() {
                     </li>
 
                     <li className="sidebar-item">
-                        <a className="sidebar-link" href="pages-profile.html">
+                        <Link className="sidebar-link" to="/Prof">
                             <i className="align-middle" data-feather="user"></i> <span className="align-middle">Profile</span>
-                        </a>
+                        </Link>
                     </li>
 
                     <li className="sidebar-item">

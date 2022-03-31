@@ -151,7 +151,7 @@ function Navbar() {
                             <img src="adminkit/img/avatars/avatar.jpg" className="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span className="text-dark">Charles Hall</span>
                         </a>
                         <div className="dropdown-menu dropdown-menu-end">
-                            <a className="dropdown-item" href="pages-profile.html"><i className="align-middle me-1" data-feather="user"></i> Profile</a>
+                            <Link className="dropdown-item" to="/Prof"><i className="align-middle me-1" data-feather="user"></i> Profile</Link>
                             <a className="dropdown-item" href="#"><i className="align-middle me-1" data-feather="pie-chart"></i> Analytics</a>
                             <div className="dropdown-divider"></div>
                             <a className="dropdown-item" href="index.html"><i className="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
