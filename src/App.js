@@ -10,10 +10,12 @@ import Signin from './components/Signin';
 import Signup from './components/Signup';
 import { Logout } from './components/Logout';
 import { Profile } from './components/Profile';
+import Dash2 from './pages/Dash2';
 
 function App() {
   return (
-    <div className='wrapper' >
+    
+     <div className='wrapper' >
    <Sidebar/>
 
    <div className="main">
@@ -33,7 +35,12 @@ function App() {
           </main>
     <Footer/>
    </div>
-    </div>
+   </div> 
+  
+   
+   
+   
+    
   );
 }
 
