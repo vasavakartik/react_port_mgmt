@@ -31,20 +31,18 @@ function Sidebar() {
                     </li>
 
                     <li className="sidebar-item">
-                        <Link className="sidebar-link" to="/Ragister">
+                        <Link className="sidebar-link"to="/Ragister">
                             <i className="align-middle" data-feather="user-plus"></i> <span className="align-middle">Sign Up</span>
                         </Link>
                     </li>
 
                     <li className="sidebar-item">
-                        <a className="sidebar-link" href="pages-blank.html">
+                        <Link className="sidebar-link" to='/Home'>
                             <i className="align-middle" data-feather="book"></i> <span className="align-middle">Blank</span>
-                        </a>
+                        </Link>
                     </li>
 
-                    <li className="sidebar-header">
-                        Tools & Components
-                    </li>
+                    
 
                     <li className="sidebar-item">
                         <Link className="sidebar-link" to="/Subs">
@@ -57,40 +55,7 @@ function Sidebar() {
                             <i className="align-middle" data-feather="check-square"></i> <span className="align-middle">Forms</span>
                         </a>
                     </li>
-
-                    <li className="sidebar-item">
-                        <a className="sidebar-link" href="ui-cards.html">
-                            <i className="align-middle" data-feather="grid"></i> <span className="align-middle">Cards</span>
-                        </a>
-                    </li>
-
-                    <li className="sidebar-item">
-                        <a className="sidebar-link" href="ui-typography.html">
-                            <i className="align-middle" data-feather="align-left"></i> <span className="align-middle">Typography</span>
-                        </a>
-                    </li>
-
-                    <li className="sidebar-item">
-                        <a className="sidebar-link" href="icons-feather.html">
-                            <i className="align-middle" data-feather="coffee"></i> <span className="align-middle">Icons</span>
-                        </a>
-                    </li>
-
-                    <li className="sidebar-header">
-                        Plugins & Addons
-                    </li>
-
-                    <li className="sidebar-item">
-                        <a className="sidebar-link" href="charts-chartjs.html">
-                            <i className="align-middle" data-feather="bar-chart-2"></i> <span className="align-middle">Charts</span>
-                        </a>
-                    </li>
-
-                    <li className="sidebar-item">
-                        <a className="sidebar-link" href="maps-google.html">
-                            <i className="align-middle" data-feather="map"></i> <span className="align-middle">Maps</span>
-                        </a>
-                    </li>
+                   
                 </ul>
 
                 
