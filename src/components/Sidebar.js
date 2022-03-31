@@ -25,13 +25,13 @@ function Sidebar() {
                     </li>
 
                     <li className="sidebar-item">
-                        <Link className="sidebar-link" to="/Form">
+                        <Link className="sidebar-link" to="/login">
                             <i className="align-middle" data-feather="log-in"></i> <span className="align-middle">Sign In</span>
                         </Link>
                     </li>
 
                     <li className="sidebar-item">
-                        <Link className="sidebar-link" to="/login">
+                        <Link className="sidebar-link" to="/Ragister">
                             <i className="align-middle" data-feather="user-plus"></i> <span className="align-middle">Sign Up</span>
                         </Link>
                     </li>

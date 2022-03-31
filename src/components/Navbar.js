@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
@@ -156,7 +157,7 @@ function Navbar() {
                             <a className="dropdown-item" href="index.html"><i className="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
                             <a className="dropdown-item" href="#"><i className="align-middle me-1" data-feather="help-circle"></i> Help Center</a>
                             <div className="dropdown-divider"></div>
-                            <a className="dropdown-item" href="#">Log out</a>
+                            <Link className="dropdown-item" to="/Logout">Log out</Link>
                         </div>
                     </li>
                 </ul>
