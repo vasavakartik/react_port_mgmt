@@ -11,6 +11,9 @@ import Signup from './components/Signup';
 import { Logout } from './components/Logout';
 import { Profile } from './components/Profile';
 import Dash2 from './pages/Dash2';
+import { AddRole } from './Role/AddRole';
+import { GetRole } from './Role/GetRole';
+import { UpdateRole } from './Role/UpdateRole';
 
 function App() {
   return (
@@ -30,6 +33,9 @@ function App() {
             <Route path='/Ragister' element={<Signup/>}></Route>
             <Route path='/Logout' element={<Logout/>}></Route>
             <Route path='/Prof' element={<Profile/>}></Route>
+            <Route path='/Role' element={<AddRole/>}></Route>
+            <Route path='/GetRole' element={<GetRole/>}></Route>
+            <Route path="updaterole/:id" element={<UpdateRole/>}></Route>
           </Routes>
           </div>
           </main>

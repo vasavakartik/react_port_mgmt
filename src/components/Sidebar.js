@@ -37,10 +37,16 @@ function Sidebar() {
                     </li>
 
                     <li className="sidebar-item">
-                        <Link className="sidebar-link" to='/Home'>
-                            <i className="align-middle" data-feather="book"></i> <span className="align-middle">Blank</span>
+                        <Link className="sidebar-link" to='/Role'>
+                            <i className="align-middle" data-feather="book"></i> <span className="align-middle">Roles</span>
                         </Link>
                     </li>
+                    <li className="sidebar-item">
+                        <Link className="sidebar-link" to='/GetRole'>
+                            <i className="align-middle" data-feather="book"></i> <span className="align-middle">GetRoles</span>
+                        </Link>
+                    </li>
+
 
                     
 
