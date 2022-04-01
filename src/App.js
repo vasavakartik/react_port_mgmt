@@ -35,7 +35,7 @@ function App() {
             <Route path='/Prof' element={<Profile/>}></Route>
             <Route path='/Role' element={<AddRole/>}></Route>
             <Route path='/GetRole' element={<GetRole/>}></Route>
-            <Route path="updaterole/:id" element={<UpdateRole/>}></Route>
+            <Route path="/getrole/updaterole/:id" element={<UpdateRole />}></Route>
           </Routes>
           </div>
           </main>

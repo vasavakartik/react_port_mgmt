@@ -45,7 +45,7 @@ export const GetRole = () =>
                 <th scope="row">{role._id}</th>
                 <td>{role.roleName}</td>
                 <td><button onClick={() => DeleteData(role._id)} className='btn btn-danger'>DELETE</button>
-                <Link to={`/updaterole/${role._id}`} className="btn btn-primary">UPDATE</Link>
+                <Link to={`/getrole/updaterole/${role._id}`} className="btn btn-primary">UPDATE</Link>
                 </td>
               </tr>
             );

@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
-export const UpdateRole = () =>  {
+export const UpdateRole = () => {
     var id = useParams().id;
     console.log("Id--",id);
 
@@ -10,7 +10,7 @@ export const UpdateRole = () =>  {
     const [roleName, setroleName] = useState(data.roleName)
 
     const getData=()=>{
-        axios.get(`http://localhost:4000/roles/${id}`).then((res)=>{
+        axios.get(`http://localhost:4001/roles/${id}`).then((res)=>{
             setdata(res.data.data);
             console.log("--",res.data.data);
         })
@@ -26,14 +26,14 @@ export const UpdateRole = () =>  {
         };
         e.preventDefault();
 
-        axios.put(`http://localhost:4000/roles/${id}`,updatedData).then((res)=>{
+        axios.put(`http://localhost:4001/roles/${id}`,updatedData).then((res)=>{
             alert('Data Updated.....');
         });
     };
     
   return (
     <div>
-         <form onSubmit={update}>
+    <form onSubmit={update}>
       <div class="form-group">
         <label>Role Name</label>
         <input
@@ -46,6 +46,6 @@ export const UpdateRole = () =>  {
           Submit
         </button>
         </form>
-    </div>
+        </div>
   )
 }
