@@ -1,7 +1,6 @@
 import React from 'react'
 import UserSubs from '../components/UserSubs';
 import Signin from '../components/Signin';
-import Signup from '../components/Signup';
 import { Logout } from '../components/Logout';
 import { Profile } from '../components/Profile';
 import { AddRole } from '../Role/AddRole';
@@ -27,7 +26,6 @@ export const Dashboard2 = () => {
              <Route path='/Dash' element={<Dashboard/>}></Route>
              <Route path='/Subs' element={<UserSubs/>}></Route>
              <Route path='/login' element={<Signin/>}></Route>
-             <Route path='/Ragister' element={<Signup/>}></Route>
              <Route path='/Logout' element={<Logout/>}></Route>
              <Route path='/Prof' element={<Profile/>}></Route>
              <Route path='/Role' element={<AddRole/>}></Route>
