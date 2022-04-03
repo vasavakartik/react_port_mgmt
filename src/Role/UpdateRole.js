@@ -26,7 +26,7 @@ export const UpdateRole = () => {
         };
         e.preventDefault();
 
-        axios.put(`http://localhost:4001/roles/${id}`,updatedData).then((res)=>{
+        axios.put(`http://localhost:4000/roles/${id}`,updatedData).then((res)=>{
             alert('Data Updated.....');
         });
     };
