@@ -12,6 +12,7 @@ import Footer from '../components/Footer';
 import Dashboard from '../pages/Dashboard';
 import { Route, Routes } from 'react-router-dom';
 
+
 export const Dashboard2 = () => {
   return (
     <div className='wrapper' >
@@ -30,7 +31,8 @@ export const Dashboard2 = () => {
              <Route path='/Prof' element={<Profile/>}></Route>
              <Route path='/Role' element={<AddRole/>}></Route>
              <Route path='/GetRole' element={<GetRole/>}></Route>
-             <Route path="/getrole/updaterole/:id" element={<UpdateRole />}></Route>
+             <Route path="/updaterole/:id" element={<UpdateRole />}></Route>
+            
            </Routes>
            </div>
            </main>
